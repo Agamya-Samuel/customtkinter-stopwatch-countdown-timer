@@ -72,7 +72,7 @@ customtkinter.set_default_color_theme("blue")  # Themes: blue (default), dark-bl
 # Setting up window-size
 app_custom = customtkinter.CTk()  # create CTk window like you do with the Tk window
 app_custom.geometry("400x240")
-app_custom.title("Stopwatch")
+app_custom.title("Countdown Timer")
 
 # Setting-up Label
 label = customtkinter.CTkLabel(master=app_custom, text="00:05:00", font=('Verdana', 30))
